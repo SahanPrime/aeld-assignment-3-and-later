@@ -1,0 +1,4 @@
+
+sysroot -  /opt/arm-toolchain/bin/../aarch64-none-linux-gnu/libc
+
+gcc version-   15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149))
