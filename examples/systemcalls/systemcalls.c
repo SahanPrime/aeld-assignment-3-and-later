@@ -3,7 +3,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <fcntl.h>
-
+#include "systemcalls.h"
 /**
  * @param cmd the command to execute with system()
  * @return true if the command in @param cmd was executed
