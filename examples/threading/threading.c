@@ -36,7 +36,7 @@ bool start_thread_obtaining_mutex(pthread_t *thread, pthread_mutex_t *mutex,int 
 
     struct thread_data *data =malloc(sizeof(struct thread_data));
     if (data ==NULL){
-          fprintf("malloc failed");
+          fprintf(stderr, "malloc failed\n");
           return false;
     }
 
